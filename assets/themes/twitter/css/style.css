@@ -35,3 +35,12 @@ ul, ol { list-style-position: inside; }
         #footer a { color: #ffffff; }
         #footer a:hover { color: #ffffff; }
         #footer ul { list-style-type: none; padding-left: 0!important; }
+p{
+margin: 0 0 34px;
+}
+
+.instructor{
+    font-size:0.9em;
+    font-style:italic;
+    font-weight:bold;
+}
