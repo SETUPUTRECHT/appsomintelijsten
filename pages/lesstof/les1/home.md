@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Home"
-description: ""
+title: "Les 1"
+description: "De lesstof van les 1"
 ---
 {% include JB/setup %}
 
@@ -41,7 +41,15 @@ Er zijn heel veel manier om kunst te maken door middel van code, maar deze cursu
 
 <p class="instructor">Laat de website van Processing zien; het downloaden; het installeren; het openen en de documentatie. Bespreek vooral hoe een pagina in de reference is opgebouwd, dit bleek een waardevolle toevoeging.</p>
 
+<p>
+Installeer Processing. Bekijk de interface
+</p>
 
+PLAATJE!
+
+<p>
+Een van de belangrijkste dingen om te onthouden is de handleiding van Processing. Deze kun je in de taakbalk vinden onder help->refence voor een versie de werkt zonder internet. Maar ook de Processing website heeft
+<a href="http://www.processing.org/reference/">reference pagina</a> beschikbaar. De pagina legt uit hoe je (bijna) alles in Processing kan doen, inclusief voorbeeld code. Dit is dus een plek waar je veel tijd gaat doorbrengen.</p>
 
 <h1>Functies</h1>
 
@@ -77,20 +85,27 @@ De uitgangspunten in setup die ik zojuist noemde heten voortaan variabelen. Dat 
 <pre><code class="processing">
     int getal = 3; //Int staat voor interger, of een heel getal
     float kommaGetal = 3.5; //float is een komma getal
-    String tekst = "Drie"; // String is een tekst, let op dat je String altijd met een hoofdletter schrijft
-    boolean aanUit = true; // boolean kun je zien als een lichtknopje en heet twee waardes true of false.
+    String tekst = "Drie"; 
+    // String is een tekst en schrijf je altijd met een hoofdletter
+    boolean aanUit = true; 
+    // boolean kun je zien als een lichtknopje en 
+    // heeft twee waardes true of false.
 </code>
 </pre>
 
 <p class="instructor">kort iets uitleggen over types: float, int, boolean en String. Wijd niet te diep uit over het verschil tussen float en int. Wij merkte dat het niet per se nodig is en het mensen alleen verward</p>
 
-<p>Insert korte inleiding van Hay hier over wat dit script is en doet.
-Vanaf hier kan het meer naar achteren, want hier gaan we alvast licht tweaken met het script
+<h2>Aan de slag</h2>
+
+<p>Omdat je het snelst leert doe het gewoon te doen, gaan we aan de slag! En dat doen we door deze simpele \'sketch\' (zo heet een programma in Processing). Aan te passen tot iets anders</p>
+<div>
+<iframe id="ifr" width="400" height="335" scrolling="no" style="background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;" src="http://studio.processingtogether.com/sp/pad/iframe/ro.9I8-YqBIz$mRg/rev.6?autostart=0">jekyll bug fix</iframe>
+</div>
+<div>
+<p class="instructor">Probeer niet alles uit te leggen in een keer, maar toon bij elke stap een beetje wat er op het scherm gebeurd.
 </p>
 
-<p class="instructor">Type in Processing de naam van een variabele en verander de waarde.</p>
-
-<p>Na functies en variabelen zijn condities de grote spelers waar we mee e maken krijgen. Een conditie is eigenlijk niets anders dan zeggen als dit, dan dat. Ze zeggen niet eens wat er dan gebeurt, maar puur dat er iets gebeurt. De condities die dit het beste illustreren zijn if en else.</p>
+<p>Na functies en variabelen zijn condities de grote spelers waar we mee te maken krijgen. Een conditie is eigenlijk niets anders dan zeggen als \'dit, dan dat\'. Ze zeggen niet eens wat er dan gebeurt, maar puur dat er iets gebeurt. De condities die dit het beste illustreren zijn if en else.</p>
 
 <p>
 Dit in het script van Hay laten zien bij de verschillende boolean if statments
@@ -122,7 +137,7 @@ Illustreer het gebruik van een for conditie, bijvoorbeeld in combinatie met een 
 </p>
 
 
-<p>Als je fouten wilt opsporen kun je dat doen met "println"</p>
+<p> Naast dat je nu ziet dat je Processing zie je iets anders. Als je fouten wilt opsporen kun je dat doen met "println"</p>
 
 <p class="instructor">
  Toon voorbeeld van hoe je telt van 1 tot 100 met prinln 
@@ -132,6 +147,14 @@ Illustreer het gebruik van een for conditie, bijvoorbeeld in combinatie met een 
 Nog even background aan stippen? Dit zit anders pas eind les drie en het geeft nu al een sterk verschillend resultaat. Misschien een mooi bruggetje naar les twee, waar dieper in wordt gegaan op Processing zelf.
 </p>
 
+<p>
+
+</p>
+
+<p class="instructor">
+Naast het Casey Reas verhaal, zou het voor de studenten mooi zijn als ze alvast de Android SDK installeren voor les twee vanaf deze <a href="">pagina</a>.
+</p>
+</div>
 <div class="instructor">
 <h3>Tijdsplanning van deze les</h3>
 1.10 0:00 - Welkom, video/ppt van je in de cursus gaan leren. <br />
