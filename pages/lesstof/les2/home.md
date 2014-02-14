@@ -140,11 +140,11 @@ void draw(){
 
 <pre>
 <code>
-   <![CDATA[
-   for(int i=0;i<5;i= i+1){
+   
+   for(int i=0;i&lt;5;i= i+1){
         //Hier staat het deel van de code dat herhaalt moet worden
     }
-    ]]>
+    
 </code>
 </pre>
 
@@ -156,11 +156,11 @@ Als laatste geef je aan de elke keer als de code tussen de accolades is uitgevoe
 
 <pre>
 <code>
-<![CDATA[
-for(int i=0;i<5;i+=1){
+
+for(int i=0;i&lt;5;i+=1){
     rect(20*i,0,20,20);
 }
-]]>
+
 </code>
 </pre>
 
@@ -238,7 +238,7 @@ We hebben te maken met:
 
 <pre>
 <code>
-<![CDATA[
+
 
 float amountOfSquaresWidth =12.0;
 float squareWidth;
@@ -249,11 +249,11 @@ void setup(){
 }
 
 void draw(){
-    for(int i=0;i<amountOfSquaresWidth;i=i+1){
+    for(int i=0;i&lt;amountOfSquaresWidth;i=i+1){
       rect(0+(i*squareWidth),0,squareWidth,20);
      }
 }
-]]>
+
 </code>
 </pre>
 
@@ -263,7 +263,7 @@ void draw(){
 
 <pre>
 <code>
-<![CDATA[
+
 float amountOfSquaresWidth =12.0;
 float squareWidth;
 
@@ -278,14 +278,14 @@ void setup() {
 
 void draw() {
   //Let op hoe ik i heb verandert is x en y
-  for (int y=0;y<amountOfSquaresHeight;y=y+1) {  
-    for (int x=0;x<amountOfSquaresWidth;x=x+1) {
+  for (int y=0;y&lt;amountOfSquaresHeight;y=y+1) {  
+    for (int x=0;x&lt;amountOfSquaresWidth;x=x+1) {
       rect(0+(x*squareWidth), 0+(y*squareHeight), squareWidth, squareHeight);
     }
   }
 }
 
-]]>
+
 </code>
 </pre>
 
@@ -296,9 +296,9 @@ void draw() {
 
 <pre>
 <code>
-<![CDATA[
+
 fill(random(0,255),random(0,255),random(0,225));
-]]>
+
 </code>
 </pre>
 
@@ -306,7 +306,7 @@ fill(random(0,255),random(0,255),random(0,225));
 
 <pre>
 <code>
-<![CDATA[
+
 float amountOfSquaresWidth =12.0;
 float squareWidth;
 
@@ -321,8 +321,8 @@ void setup() {
 
 void draw() {
   //Let op hoe ik i heb verandert is x en y
-  for (int y=0;y<amountOfSquaresHeight;y=y+1) {  
-    for (int x=0;x<amountOfSquaresWidth;x=x+1) {
+  for (int y=0;y&lt;amountOfSquaresHeight;y=y+1) {  
+    for (int x=0;x&lt;amountOfSquaresWidth;x=x+1) {
       fill(random(0,255),random(0,255),random(0,225));
       stroke(255);
       rect(0+(x*squareWidth), 0+(y*squareHeight), squareWidth, squareHeight);
@@ -330,7 +330,7 @@ void draw() {
   }
 }
 
-]]>
+
 </code>
 </pre>
 
@@ -338,8 +338,50 @@ void draw() {
 
 <h2> Stap 3: Bonus</h2>
 <p>Als laatste nemen we alvast een voorproefje op volgende week en gaan we kijken naar hoe we de muis kunnen gebruiken om eindeloos nieuwe 1025 farben werken te maken. Haal de noLoop() uit de setup functie weg en bekijk de <a href="http://processing.org/reference/mousePressed.html" target="_blank">mousePressed</a> variabele op de Reference pagina.</p>
+<p>als het deel dat de blokken tekenen in de mousePressed statement plaatsen. Worden er alleen nieuwe kleuren gemaakt op het moment dat we de muis indrukken. Hierdoor hoeven we niet elke keer het script opnieuw op te starten op het moment dat we een nieuwe versie van ons werk willen zien.</p>
+
+<pre>
+<code>
+
+    float amountOfSquaresWidth =12.0;
+    float squareWidth;
+    
+    float amountOfSquaresHeight =12.0;
+    float squareHeight;
+    
+    void setup() {
+      size(400, 400);
+      squareWidth = width/amountOfSquaresWidth;
+      squareHeight = height/amountOfSquaresHeight;
+    }
+    
+    void draw() {
+      if (mousePressed== true) {
+        //Let op hoe ik i heb verandert is x en y
+        for (int y=0;y&lt;amountOfSquaresHeight;y=y+1) {  
+          for (int x=0;x&lt;amountOfSquaresWidth;x=x+1) {
+            fill(random(0, 255), random(0, 255), random(0, 225));
+            stroke(255);
+            rect(0+(x*squareWidth), 0+(y*squareHeight), squareWidth, squareHeight);
+          }
+        }
+      }
+    }
 
 
+</code>
+</pre>
 
 <h2>Huiswerk</h2>
-Zoals gezegd gaan we de volgende week aan de slag met de muis om interactieve werken te produceren!
+<p>Zoals gezegd gaan we de volgende week aan de slag met de muis om interactieve werken te produceren! Maar eerst laten wat huiswerk bekijken.</p>
+
+<p>
+Huiswerk:<br />
+Kies een van de volgende werken en probeer het om te zetten naar code.<br />
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/File:Theo_van_Doesburg_Composition_VII_(the_three_graces).jpg
+" target="_blank">Theo van Doesburg Compositie 7</a></li>
+<li><a href="http://crowquills.com/Wallpaper-1" target="_blank">Andy Gilmore - Wallpaper</a></li>
+<li><a href="http://www.damienhirst.com/argininosuccinic-acid" target="_blank">Damien Hirst - Argininosuccinic Acid </a></li>
+</ul>
+</p>
