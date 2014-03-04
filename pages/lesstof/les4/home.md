@@ -140,7 +140,7 @@ In Javascript mode mogen soms dingen niet, die in normaal Processing wel mogen e
 Nog even 20 minuten de laatste details en dan het elkaar laten zien.</p>
 
 <p>
-Ik wil jullie allemaal erg bedanken voor het meedoen. Ik hoop dat jullie veel geleerd hebben. Je kunt nu natuurlijk nog lang geen GTA maken over programmeren voor Google, maar hopelijk denk je nu als je zoiets als je games of software ziet dat je nadenkt over hoe je het in kleine stukjes kan hakken zodat
+Ik wil jullie allemaal erg bedanken voor het meedoen. Ik hoop dat jullie veel geleerd hebben. Je kunt nu natuurlijk nog lang geen GTA maken over programmeren voor Google, maar hopelijk denk je nu als je zoiets als je games of software ziet dat je nadenkt over hoe je het in kleine stukjes kan hakken zodat het je in staat stelt zelf kleine stukjes software te schrijven.
 </p>
 
 <p>

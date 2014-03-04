@@ -149,7 +149,7 @@ void draw(){
 </pre>
 
 <p>Bij een for loop maakt je de eerst een variable aan, die in de meeste programmeurs \'i\' noemen. Deze variabele gaat dienen als een tellertje,
-bij de volgende stap zeg je hoe vaak de for loop herhaalt moet worden, in dit geval zeg je: zoals i kleiner is dan 5, herhaal je deze code. Omdat i begint bij 0 wordt deze code 5 keer herhaalt waarbij i een waarde heeft oplopende van 0 tot en met 4.
+bij de volgende stap zeg je hoe vaak de for loop herhaalt moet worden, in dit geval zeg je: zolang i kleiner is dan 5, herhaal je deze code. Omdat i begint bij 0 wordt deze code 5 keer herhaalt waarbij i een waarde heeft oplopende van 0 tot en met 4.
 Als laatste geef je aan de elke keer als de code tussen de accolades is uitgevoerd i toeneemt met 1. </p>
 
 <p>Omdat i een variabele is kun je hem gebruiken om mee te rekenen in je code op deze manier kun je keurig vijf vierkanten op een rij tekenen.</p>
@@ -171,7 +171,7 @@ Hierdoor hoef je niet meer heel veel kubussen te tekenen! Maar er komt wel altij
 <h2>Willekeurige getallen</h2>
 
 <p>
-De achterliggende techniek is vrij complex en gaan we in deze cursus niet behandelen, maar wij kunnen er wel gebruik van maken dankzij een handige functie van Processing, genaamd random. Wat deze doet is een kommagetal, dus een float \'teruggeven\' tussen twee getallen. Dus bijvoorbeeld random(20, 50) geeft een getal tussen de 20 en de 50, maar wel altijd een komma getal zoals 23.24284240. Als je liever een geheel getal wilt hebben kun je het afronden met round(). 
+De achterliggende techniek is vrij complex en gaan we in deze cursus niet behandelen, maar wij kunnen er wel gebruik van maken dankzij een handige functie van Processing, genaamd random. Wat deze functie doet is een kommagetal, dus een float, tussen een opgegeven onder en bovengrens teruggeven. Dus bijvoorbeeld random(20, 50) geeft een getal tussen de 20 en de 50 terug, maar wel altijd een komma getal zoals 23.24284240. Als je liever een geheel getal wilt hebben kun je het afronden met round(). 
 </p>
 
 <div class="instructor">

@@ -71,7 +71,7 @@ Misschien heb je al wel eens gehoord dat je met programmeren vaak te maken hebt 
 </code>
 </pre>
 
-<p>Een ander belangrijk verschil is is dat de functie setup maar een keer wordt uitgevoerd. Terwijl draw tot zestig keer per seconde herhaalt wordt. Maar daar komen we later op terug.</p>
+<p>Een ander belangrijk verschil is dat de functie setup maar een keer wordt uitgevoerd. Terwijl draw tot zestig keer per seconde herhaalt wordt. Maar daar komen we later op terug.</p>
 
 <p class="instructor">
 Bij draw even uitleggen dat hij hier het geheel echt tekent en iets over Frames per secondes etc.
@@ -108,7 +108,7 @@ Variabelen ken je misschien uit de wiskunde. Variabelen bestaan uit een naam waa
 </code>
 </pre>
 
-<p>Let op dat processing hoofdletter gevoelig is dus dat \'getal1\' niet hetzelfde is als \'Getal1'. Verder zie je in de code hier boven het commando <a href="http://processing.org/reference/println_.html" target="_blank">println</a>, dit is handig om te zien wat de waarde is van een betpaalde variabele als je het programma draait.</p>
+<p>Let op dat processing hoofdletter gevoelig is dus dat \'getal1\' niet hetzelfde is als \'Getal1'. Verder zie je in de code hier boven het commando <a href="http://processing.org/reference/println_.html" target="_blank">println</a>, dit is handig om te zien wat de waarde is van een bepaalde variabele als je het programma draait.</p>
 
 <h2>Aan de slag</h2>
 
@@ -127,7 +127,7 @@ Variabelen ken je misschien uit de wiskunde. Variabelen bestaan uit een naam waa
 </p>
 
 <p>
-Als eerste zie je veel regels beginnen met //. Deze regels zijn ook grijs gekleurd in tegenstelling tot de andere regels. Dit zijn namelijk zogenaamde comments. Regels die door de computer worden genegeerd en bedoelt zijn als hulpt middel voor programmeurs om de code van andere programmeurs te begrijpen. Je code voorzien van comments is ook een goed idee voor jezelf omdat je zo over 6 maanden oude code nog steeds begrijpt door je eigen aanwijzingen.
+Als eerste zie je veel regels beginnen met //. Deze regels zijn ook grijs gekleurd in tegenstelling tot de andere regels. Dit zijn namelijk zogenaamde comments. Regels die door de computer worden genegeerd en bedoelt zijn als hulpmiddel voor programmeurs om de code van andere programmeurs te begrijpen. Je code voorzien van comments is ook een goed idee voor jezelf omdat je zo over 6 maanden oude code nog steeds begrijpt door je eigen aanwijzingen.
 </p>
 
 <p>Na een aantal regels met comments zien we dit blok met verschillende variabelen:</p>
@@ -233,7 +233,7 @@ if(getal1 !=50){
 
 
 <p>
-Je bent nu  wat aan het spelen geweest met code, maar het lijnt niet zo mooi als hij de oorspronkelijk broncode. Code die mooi ingesprongen is leest beter doordat je in een oog opslag kan zien wat nog wel bij een bepaald deel van de code valt. Gelukkig helpt Processing je hier mee met de functie \'auto-format\' die automagisch je code goed doet inspringen. Druk op ctrl+t of cmnd+t op een Mac en je zult zien dat je code er meteen een stuk netter uitziet.
+Je bent nu  wat aan het spelen geweest met code, maar het lijnt niet zo mooi als hij de oorspronkelijk broncode. Code die mooi ingesprongen is leest beter doordat je in een oog opslag kan zien wat nog wel bij een bepaald deel van de code valt. Gelukkig helpt Processing je hier mee met de functie \'auto-format\' die automatisch je code goed doet inspringen. Druk op ctrl+t of cmnd+t op een Mac en je zult zien dat je code er meteen een stuk netter uitziet.
 </p>
 
 <h2>Huiswerk voor de volgende les</h2>

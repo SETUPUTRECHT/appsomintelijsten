@@ -153,7 +153,7 @@ void draw() {
 Nu dat we een idee hebben van de basis, laten we net als vorige week kijken naar een bestaand kunstwerk en dat reproduceren. Dit keer is dat <a href="http://primitives.acjs.net/" target="_blank">Primitives</a> van Alexander Christiaan Jakobs.
 </p>
 
-<img src="/assets/img/primitives.jpg"/>
+<img src="http://setuputrecht.github.io/appsomintelijsten/assets/img/primitives.jpg"/>
 
 <p>
 Net als vorige keer breken we het werk eerst af in simpele elementen en stappen om te zien wat het werkt nou eigenlijk doet.
@@ -165,6 +165,7 @@ Net als vorige keer breken we het werk eerst af in simpele elementen en stappen 
 <li>vormen geplaatst in een raster</li>
 <li>Als je met de muis beweegt over een vorm verandert het</li>
 </ul>
+
 
 <p class="instructor"> Ik kan me voorstellen dat bij een minder ervaren groep je niet te veel tijd wil besteden aan het tekenen van de verschillende vormen. Maak het werk gerust met minder vormen of verspreid die code alvast onder de studenten.</p>
 
@@ -196,7 +197,7 @@ if(mouseX &gt;= 60 &amp;&amp; mouseX &lt;= 90){
 
 <p>Een betere oplossing is als je het raster waarin de vormen worden getekend een eigen co&#246;rdinaten stelsel meegeeft, a la zeeslagje.  Op die manier kunnen we de positie van het muis terug rekenen naar de vorm op het scherm die moet veranderen.</p>
 
-<img src="/assets/img/rasterles3.png"/>
+<img src="http://setuputrecht.github.io/appsomintelijsten/assets/img/rasterles3.png"/>
 
 <p>Nu kunnen we heel snel het juiste co&#246;rdinaat vinden door de positie van de muis te delen door de breedte van het vakje.</p>
 
@@ -263,7 +264,7 @@ void draw() {
 
 <p>We hebben dus nu een methode om te berekenen welke vorm op het scherm opnieuw getekend moet worden, en we zetten voorlopig een vierkant neer met een willekuerige kleur als vorm.</p>
 
-<p>Dit is al leuk, maar als je muis stil staat dan blijft het geheel knipperen. Dat is niet handig, dus we hebben een check nodig die kijkt of de muis niet als in hetzelfde vakje aanwezig was.</p>
+<p>Dit is al leuk, maar als je muis stil staat dan blijft het geheel knipperen. Dat is niet handig, dus we hebben een check nodig die kijkt of de muis niet al in hetzelfde vakje aanwezig was.</p>
 
 <p>Om dit te doen hebben we een if statement die kijkt of de muis zich in een ander vakje bevindt op de horizontale OF verticale regel. in een van de eerdere voorbeeld lieten we stilletjes al <a href="http://processing.org/reference/logicalAND.html" target="_blank">&amp;&amp;</a> in een if statment zien, wat kijkt of beide zaken die je wil controleren waar zijn. In ons geval hoeven ze niet allebei waar zijn, mag wel, daarvoor gebruiken we  <a href="http://processing.org/reference/logicalOR.html" target="_blank">&#124;&#124;</a>, wat zoveel betekend als OR.</p>
 
@@ -359,7 +360,7 @@ void draw() {
 </pre>
 
 <p>
-Als je deze code nu runt zie je het probleem dat de cirkels niet helemaal over de vierkanten heen vallen. Dit lossen we, heel flauw, op de er gewoon een zwart vierkant te tekenen voordat we een nieuwe vorm er over heen tekenen.
+Als je deze code nu runt zie je het probleem dat de cirkels niet helemaal over de vierkanten heen vallen. Dit lossen we, heel flauw, op door er een zwart vierkant te tekenen voordat we een nieuwe vorm er over heen tekenen.
 </p>
 
 <pre>
@@ -410,7 +411,7 @@ void draw() {
 </code>
 </pre>
 
-<p>Mocht je meer vormen willen toevoegen, dan kan dit natuurlijk altijd. We hebben hier wat voorbeeld code waar in we de andere vormen van Primitives uitleggen. Maar mocht je niet zoveel interesse hebben in vormen, dan kun je ook verder zonder de uitleg te lezen. De belangrijkste toevoeging is de functie <a href="http://processing.org/reference/arc_.html" target="_blank">arc</a> die je in staat stelt delen van een cirkel te tekenen. Let daarbij op dat Processing gebruikt maakt van radianen als notering om het start en eindpunt van de cirkel aan te geven. Mocht je dat onhandig vinden dan kun je met <a href="http://processing.org/reference/radians_.html" target="_blank">randians</a></p>
+<p>Mocht je meer vormen willen toevoegen, dan kan dit natuurlijk altijd. We hebben hier wat voorbeeld code waar in we de andere vormen van Primitives uitleggen. Maar mocht je niet zoveel interesse hebben in vormen, dan kun je ook verder zonder de uitleg te lezen. De belangrijkste toevoeging is de functie <a href="http://processing.org/reference/arc_.html" target="_blank">arc</a> die je in staat stelt delen van een cirkel te tekenen. Let daarbij op dat Processing gebruikt maakt van radianen als notering om het start en eindpunt van de cirkel aan te geven. Mocht je dat onhandig vinden dan kun je met <a href="http://processing.org/reference/radians_.html" target="_blank">randians</a> functie gewoon het 360 graden systeem gebruiken.</p>
 
 <h2>Het scherm aan het begin vullen</h2>
 <p>Dus nu kunnen we op de juiste manier nieuwe vormen laten verschijnen en over oude vormen heen tekenen. Maar we beginnen met een leeg scherm. Dat is natuurlijk niet hoe het originele werkt begint.</p>
