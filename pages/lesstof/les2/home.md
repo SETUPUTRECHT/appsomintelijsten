@@ -41,9 +41,10 @@ description: ""
 <p>Dus schrijft het onderstaande over en klik op play!</p>
 <p class="instructor">Schrijf code weer mee.</p>
 
+<iframe id='ifr' width='400' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9wj36vYXVZxF0/rev.1?autostart=0'>adsfds</iframe>
+
 <pre>
 <code>
-//Dit gaan we vervangen met een sketchpad, zodat je het meteen kan runnen
 void setup(){
 	size(400,400);
 	rect(100,50,20,20);
@@ -55,13 +56,14 @@ void setup(){
 
 <p class="instructor">Ga vragen stellen: hoe maak je de rechthoek breder, groter, op een andere plek, etc. Schenk daarbij ook aandacht aan de rechterhoek omdat veel studenten niet nadenken over het punt waarbij het tekenen begint. Als je tijd over hebt laat ook ellipse ziet en het verschil hoe beiden op het scherm gezet worden</p>
 
-<h2>Flexibele code</h2>
+<h1>Flexibele code</h1>
 
 <p>Je merkt dat echt in het midden tekenen een hoop rekenwerk vergt, je moet rekening houden met de breedte en de hoogte van het canvas en het scherm. Dat is lastig als je te maken hebt met een programmatje dat je later misschien op een andere grootte wil uit proberen. Dit kun je oplossen door gebruik te maken van variabelen, die we ook in de vorige les zagen.</p>
 
+<iframe id="ifr" width="400" height="335" scrolling="no" style="background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;" src="http://studio.processingtogether.com/sp/pad/iframe/ro.9cieln0$94FcG/rev.2?autostart=0">jekyll bug fix</iframe>
+
 <pre>
 <code>
-//Dit gaan we vervangen met een sketchpad, zodat je het meteen kan runnen
 void setup(){
 	size(400,400);
 	rect((width/2)-10,(height/2)-10,20,20);
@@ -73,9 +75,9 @@ void setup(){
 
 <p>Hoewel dit al sneller is, is het nog steeds niet heel handig omdat elke keer als je een vierkant wil laten verschillen in grootte je op meerdere plekken de code moet aanpassen. Niet alleen bij de breedte en hoogte van rect, maar ook in de coordinaten. Dit los je op door dit ook te koppelen aan variabelen, zoals we hier onder laten zien.</p>
 
+<iframe id='ifr' width='400' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9PPxEoMea5Qq9/rev.2?autostart=0'></iframe>
 <pre>
 <code>
-//Dit gaan we vervangen met een sketchpad, zodat je het meteen kan runnen
 int rectWidth = 20;
 int rectHeight = 20;
 
@@ -95,7 +97,7 @@ void setup(){
 <p>Een vierkant is een ding, maar hij is een beetje saai met een zwarte randje en een witte vulling. Dus laten we nu eens kijken hoe kleur werkt in Processing. Mocht je trouwens andere vormen willen tekenen check de 2d primitives in de <a href="http://processing.org/reference/" target="_blank">reference</a></p>
 
 
-<h2>Kleuren, fill en stroke</h2>
+<h1>Kleuren, fill en stroke</h1>
 
 <p>Processing werkt normaal met kleuren in een RGB kleurstelsel, wat staat voor Red Green Blue. Een kleur bestaat hierin dan ook altijd uit drie waarden, waarbij het minimum 0 en het maximum 255 is. Zo krijg je 256 tot de derde, oftewel 16.777.216 variaties. Het RGB model van kleurmening is een zogenaamde additieve kleurmening waarbij 255,255,255 de kleur wit is en 0,0,0 zwart.</p>
 
@@ -136,9 +138,11 @@ void draw(){
 </code>
 </pre>
 
+<iframe id='ifr' width='400' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9vgNUtXWGrU-s/rev.2?autostart=0'></iframe>
+
 <p>Nu weten we hoe we vierkanten tekenen en deze voorzien van een kleurtje. Maar wat als we 100 vierkanten willen tekenen. Moeten ze dan allemaal vol uit worden geschreven in de code?</p>
 
-<h2>For loops</h2>
+<h1>For loops</h1>
 
 <p>Gelukkig zijn computers zelfs heel goed in herhaling en de bekenste daarvan is de for loop. Voor loops zijn herhalingen die de computer uitvoert zolang er niet voldaan wordt aan een bepaalde voorwaarde.</p>
 
@@ -160,6 +164,7 @@ Als laatste geef je aan de elke keer als de code tussen de accolades is uitgevoe
 
 <p>Omdat i een variabele is kun je hem gebruiken om mee te rekenen in je code op deze manier kun je keurig vijf vierkanten op een rij tekenen.</p>
 
+<iframe id='ifr' width='400' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.985nkBPwkhj2Y/rev.13?autostart=0'></iframe>
 <pre>
 <code>
 
@@ -174,7 +179,7 @@ for(int i=0;i&lt;5;i+=1){
 Hierdoor hoef je niet meer heel veel kubussen te tekenen! Maar er komt wel altijd precies hetzelfde uit. Het is natuurlijk nog veel leuker als er voor onszelf wat meer een verrassingselement zit in wat de computer uiteindelijk op het scherm laat zien. Om daartoe te komen ga ik er wat willekeur bij betrekken.
 </p>
 
-<h2>Willekeurige getallen</h2>
+<h1>Willekeurige getallen</h1>
 
 <p>
 De achterliggende techniek is vrij complex en gaan we in deze cursus niet behandelen, maar wij kunnen er wel gebruik van maken dankzij een handige functie van Processing, genaamd random. Wat deze functie doet is een kommagetal, dus een float, tussen een opgegeven onder en bovengrens teruggeven. Dus bijvoorbeeld random(20, 50) geeft een getal tussen de 20 en de 50 terug, maar wel altijd een komma getal zoals 23.24284240. Als je liever een geheel getal wilt hebben kun je het afronden met round(). 
@@ -193,6 +198,8 @@ De achterliggende techniek is vrij complex en gaan we in deze cursus niet behand
 <p class="instructor">Vervang de waarden van de variabelen in je vierkantjes-app door een random-functie en laat het resultaat zien door de applicatie meerdere keren te renderen.</p>
 
 <p>Een random kun je gebruiken om delen van je code onvoorspelbaar te maken, bijvoorbeeld door de plaatsing van de vierkantjes of de kleuren die het vierkantje krijgt. Hieronder tekenen we bijvoorbeeld non-stop dezelfde vierkantjes op verschillende plekken.</p>
+
+<iframe id='ifr' width='400' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9LPBu8E9KDDgF/rev.5?autostart=0'></iframe>
 
 <pre>
 <code>
@@ -216,7 +223,7 @@ void draw(){
 
 <p>Dat laatste is, en dat is niet toevallig, precies wat we nu gaan ondernemen met de verschillende elementen die we vandaag geleerd hebben.</p>
 
-<h2>1025 Farben</h2>
+<h1>1025 Farben</h1>
 
 <img src="http://www.christies.com/lotfinderimages/d52216/d5221605l.jpg" />
 
@@ -237,10 +244,13 @@ We hebben te maken met:
 </ul>
 </p>
 
-<h2>Stap 1: Herhaling</h2>
+<h1>Stap 1: Herhaling</h1>
 <p>Eerder hebben we al herhaling gebruikt om meerdere vierkantjes te tekenen. Maar dat beperkte zich tot vijf vierkantjes op een rij. Wat als we wilde proberen om een hele lijn aan vierkantjes te tekenen, die flexibel is zoals het voorbeeld aan het begin van deze les waar we een vierkantje in het midden probeerde te tekenen?</p>
 
 <p>We pakken dat op de volgende manier aan. We willen bovenaan aangeven hoeveel blokjes we op een rij willen hebben. Dit is veel praktische dan te zeggen hoe breed een blokje is om vervolgens te moeten uitrekenen of er wel 5 blokjes op een rij passen. Vervolgens laten we Processing zelf uitrekenen hoe breed een blokje moet zijn.</p>
+
+
+<iframe id='ifr' width='400' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9vJsGy5JqXq3s/rev.2?autostart=0'></iframe>
 
 <pre>
 <code>
@@ -266,6 +276,8 @@ void draw(){
 <p>Door Processing het rekenwerk te laten doen, is dit scriptje meteen heel geschikt geworden om snel een aantal blokjes op een rij te laten tekenen die precies past op het scherm. Maar wat als we nou niet willen stoppen bij een rij, maar het hele scherm willen vullen?</p>
 
 <p>Dit doen we door een for loop in een for loop te plaatsen. Dit lijkt heel raar maar eigenlijk is het heel logisch. Je laat de computer eerst een horizontale rij vullen en als hij klaar is laat je hem het opnieuw doen maar een rij lager. Op die manier vul je het scherm. Net als bij het vorige voorbeeld laten we Processing berekenen hoe hoog een blokje moet worden.</p>
+
+<iframe id='ifr' width='400' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.96LA5aQMF9j2P/rev.8?autostart=0'>asdf</iframe>
 
 <pre>
 <code>
@@ -297,7 +309,7 @@ void draw() {
 
 <p>Iets wat veel mensen vergeten als je for loops in for loops plaatsen is dat de variabele i niet twee keer kan voor komen. Daarom is het belangrijk dat je in dit geval de naam i aanpast in twee verschillende namen. Ik heb hier gekozen voor x en y, waarbij x de herhalingen doet op de horizontale as en y op de verticale as.</p>
 
-<h2> Stap 2: Kleuren</h2>
+<h1> Stap 2: Kleuren</h1>
 <p>Het raster aan vakjes is er klaar voor. Voor de kleuren pakken we het iets anders aan en laten we dat lekker over aan de computer door de kleuren te laten bepalen met de random functie. Zoals je kan herinneren lopen kleuren van 0 tot 255 dus kunnen we een willekeurige kleur maken door de volgende code</p>
 
 <pre>
@@ -309,6 +321,8 @@ fill(random(0,255),random(0,255),random(0,225));
 </pre>
 
 <p>Als we dit toevoegen aan het script ziet dat er als volgt uit</p>
+
+<iframe id='ifr' width='400' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9KqgP-NxrswY5/rev.13?autostart=0'>jekyll bug fix</iframe>
 
 <pre>
 <code>
@@ -342,9 +356,11 @@ void draw() {
 
 <p>Mocht je dat nou heel onrustig vinden kun je in de setup, de functie <a href="http://processing.org/reference/noLoop_.html" target="_blank">noLoop()</a> zetten. Daardoor wordt het deel in draw niet herhaald en wordt er elke keer dat je het script start er keurig een 1025 Farben werk gemaakt. Ook zie je dat we een witte lijn om de vakjes hebben heen gemaakt, door maar een waarde op te geven bij kleuren maak je grijs waardes.</p>
 
-<h2> Stap 3: Bonus</h2>
+<h1> Stap 3: Bonus</h1>
 <p>Als laatste nemen we alvast een voorproefje op volgende week en gaan we kijken naar hoe we de muis kunnen gebruiken om eindeloos nieuwe 1025 farben werken te maken. Haal de noLoop() uit de setup functie weg en bekijk de <a href="http://processing.org/reference/mousePressed.html" target="_blank">mousePressed</a> variabele op de Reference pagina.</p>
 <p>als het deel dat de blokken tekenen in de mousePressed statement plaatsen. Worden er alleen nieuwe kleuren gemaakt op het moment dat we de muis indrukken. Hierdoor hoeven we niet elke keer het script opnieuw op te starten op het moment dat we een nieuwe versie van ons werk willen zien.</p>
+
+<iframe id='ifr' width='400' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9K1sW09IYf-sZ/rev.8?autostart=0'>jekyll bug fix</iframe>
 
 <pre>
 <code>
@@ -378,7 +394,7 @@ void draw() {
 </code>
 </pre>
 
-<h2>Huiswerk</h2>
+<h1>Huiswerk</h1>
 <p>Zoals gezegd gaan we de volgende week aan de slag met de muis om interactieve werken te produceren! Maar eerst laten wat huiswerk bekijken.</p>
 
 <p>

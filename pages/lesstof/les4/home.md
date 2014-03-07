@@ -26,7 +26,7 @@ Maar eerst kun je zelf aan de slag, dus pak je laptop en ga lekker aan de slag.
 </p>
 
 
-<h2>Je werkt delen met de wereld</h2>
+<h1>Je werkt delen met de wereld</h1>
 
 <p>Nu dat we bijna klaar zijn en jullie allemaal met wat zelfvertrouwen zelf projecten kunnen uitdenken en realiseren, wordt het tijd om het te hebben over hoe je je werk kan delen met anderen. Daarom als tussendoortje tijdens deze laatste bijeenkomst een overzicht van hoe je je werk kan delen.
 Als eerste gaan we kijken naar het exporteren van een afbeelding vanuit Processing. Zo kun je je werk delen op het internet. Dat kan door het toevoegen van de functie <a href="http://processing.org/reference/save_.html" target="_blank">save</a>
@@ -97,7 +97,7 @@ Zoals je ziet is het bijna hetzelfde behalve dat je een aantal # hekjes toevoegd
 
 <p class="instructor">Als docent tijd over heeft kan hij dit voordoen, anders verwijzen naar de site</p>
 
-<h2>Video's maken</h2>
+<h1>Video's maken</h1>
 <p>
 Omdat video eigenlijk niets anders is dan heel veel plaatjes achter elkaar zetten, kun je door saveFrame in draw te zetten heel veel plaatjes laten maken en deze met de tools->Movie maker ombouwen tot een video.
 </p>
@@ -105,7 +105,7 @@ Omdat video eigenlijk niets anders is dan heel veel plaatjes achter elkaar zette
 <p>Movie maker:
 Uitleg movie maker</p>
 
-<h2>PDF maken van je werk</h2>
+<h1>PDF maken van je werk</h1>
 <p>
 Naast gewone afbeeldingen kan Processing ook PDF bestanden maken van je werk. DIt lijkt in eerste instantie niet heel boeiend, maar het grote voordeel van PDF is dat de output van vormen gebeurd in Vector vormen. Vector afbeeldingen zijn afbeeldingen die te vergroten zijn zonder kwaliteit verlies, waardoor het heel geschikt is voor bijvoorbeeld posters.
 </p>
@@ -136,7 +136,7 @@ void draw() {
 </code>
 </pre>
 
-<h2>Kiosk Mode</h2>
+<h1>Kiosk Mode</h1>
 <p>
 Het exporteren van een video en het goed gebruiken van de PDF opties zijn best technisch, dus we gaan nu iets makkelijkers doen, het full-screen presenteren van je code. Dit kan heel makkelijk met ctrl+shift+r of cmd+shift+r op een Mac. Nu zie je dat Processing automatisch alles in je scherm zwart maakt en in het midden je werk zet.
 </p>
@@ -158,7 +158,7 @@ Mocht je meerdere schermen hebben en je werkt op het tweede schermen willen late
 </p>
 <img src="http://setuputrecht.github.io/appsomintelijsten/assets/img/multiscreen.jpg"/>
 
-<h2>Javascript mode</h2>
+<h1>Javascript mode</h1>
 <p>Het laatste wat ik wil laten zien is de Javascript mode, dit is net als de Anroid Mode een alternatieve mode in Processing die ervoor zorgt dat je werk niet als Java of Android applicatie wordt uitgeschreven maar als website element. Zo kun je bijvoorbeeld de achtergronden om je website interactieve maken.</p>
 
 <p>

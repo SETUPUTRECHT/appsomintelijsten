@@ -108,7 +108,11 @@ Variabelen ken je misschien uit de wiskunde. Variabelen bestaan uit een naam waa
 </code>
 </pre>
 
-<p>Let op dat processing hoofdletter gevoelig is dus dat \'getal1\' niet hetzelfde is als \'Getal1'. Verder zie je in de code hier boven het commando <a href="http://processing.org/reference/println_.html" target="_blank">println</a>, dit is handig om te zien wat de waarde is van een bepaalde variabele als je het programma draait.</p>
+
+<iframe id="ifr" width="400" height="335" scrolling="no" style="background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;" src="http://studio.processingtogether.com/sp/pad/iframe/ro.9G36s73ESfFe1/rev.10?autostart=0">jekyll bug fix</iframe>
+
+
+<p>Let op dat processing hoofdletter gevoelig is dus dat &quot;getal1&quot; niet hetzelfde is als &quot;Getal1&quot;. Verder zie je in de code hier boven het commando <a href="http://processing.org/reference/println_.html" target="_blank">println</a>, dit is handig om te zien wat de waarde is van een bepaalde variabele als je het programma draait.</p>
 
 <h2>Aan de slag</h2>
 
@@ -116,10 +120,7 @@ Variabelen ken je misschien uit de wiskunde. Variabelen bestaan uit een naam waa
 
 <p>Download de sketch <a href="https://github.com/hay/setup-processing/archive/master.zip" target="_blank">hier</a> en pak hem uit. Wij gaan aan de slag met het de simpele variant. De advanced versie is een mooi startpunt als je klaar met de workshop en dieper in programmeren wil duiken. Open de alife_simple map en dubbelklik op alife_simple.pde. Als je nu op de play knop drukt zie je iets wat lijkt op deze sketch hieronder.</p>
 
-<div>
 <iframe id="ifr" width="400" height="335" scrolling="no" style="background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;" src="http://studio.processingtogether.com/sp/pad/iframe/ro.9I8-YqBIz$mRg/rev.6?autostart=0">jekyll bug fix</iframe>
-</div>
-<div>
 
 <p>Deze sketch is qua werking heel simpel. het zijn een aantal vierkanten die op het moment dat ze de rand van het scherm raken aan de andere kant weer verschijnen. Maar de sketch is zo ingericht dat er veel opties zijn om aan de sleutelen. Door dingen te proberen in andermans code leer je vaak heel veel, dus laten we in de code duiken om te zien wat we tegenkomen.</p>
 
@@ -265,7 +266,7 @@ Nog even background aan stippen? Dit zit anders pas eind les drie en het geeft n
 <p class="instructor">
 Naast het Casey Reas verhaal, zou het voor de studenten mooi zijn als ze alvast de Android SDK installeren voor les twee vanaf deze <a href="">pagina</a>.
 </p>
-</div>
+
 <div class="instructor">
 <h3>Tijdsplanning van deze les</h3>
 1.10 0:00 - Welkom, video/ppt van je in de cursus gaan leren. <br />

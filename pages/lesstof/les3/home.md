@@ -42,7 +42,7 @@ void draw(){
 
 <p>Zoals je ziet volgt de cirkel nu keurig de muis. Dit is het meest simpele voorbeeld dat je kan maken met mouseX en mouseY dus laten we het uitbouwen tot een klein tekenprogrammatje.</p>
 
-<h2>Een tekenprogrammatje</h2>
+<h1>Een tekenprogrammatje</h1>
 
 <p>Voor een tekenprogramma kun je, zoals we in de vorige les lieten zien, de background uit de vorige code weghalen. Op die manier worden de cirkels niet van het scherm gehaald en ontstaat er een slinger van cirkels.</p>
 
@@ -82,7 +82,7 @@ void draw(){
 </code>
 </pre>
 
-<h2>Muiskliks en spelen met variabelen</h2>
+<h1>Muiskliks en spelen met variabelen</h1>
 
 <p>
 Dus we weten dat we iets kunnen doen met de positie van de muis, maar met een muis kun je ook klikken. Dus hoe doe je daar iets mee?
@@ -153,7 +153,7 @@ void draw() {
 </code>
 </pre>
 
-<h2>Het reproduceren van een interactief werk</h2>
+<h1>Het reproduceren van een interactief werk</h1>
 
 <p>
 Nu dat we een idee hebben van de basis, laten we net als vorige week kijken naar een bestaand kunstwerk en dat reproduceren. Dit keer is dat <a href="http://primitives.acjs.net/" target="_blank">Primitives</a> van Alexander Christiaan Jakobs.
@@ -179,7 +179,7 @@ Net als vorige keer breken we het werk eerst af in simpele elementen en stappen 
 
 
 
-<h2>Het berekenen van je muis positie</h2>
+<h1>Het berekenen van je muis positie</h1>
 
 <p>Het moeilijkste aan dit kunstwerk is het bekijken wanneer er een nieuw vakje op het scherm getekend moet worden, dus daar gaan we mee beginnen. Dit vereist enige denkwerk om zo goed mogelijk te doen.</p>
 
@@ -313,7 +313,7 @@ void draw() {
 In bovenstaande code staat nog iets wat we nog niet eerder hebben behandeld, namelijk de <a href="http://processing.org/reference/inequality.html" target="_blank">!=</a>. != betekend zoveel als niet gelijk aan. Dus als mouseXArea en pmouseXArea niet gelijk zijn of hetzelfde geld voor mouseYArea en pmouseYArea, dan teken je een nieuw vierkantje.
 </p>
 
-<h2>Verschillende vormen tekenen</h2>
+<h1>Verschillende vormen tekenen</h1>
 <p>
 We hebben nu een belangrijk deel van de interactie af. Het juiste blokje verandert van kleur als we er met de muis over heen gaan en blijft niet knipperen op het moment dat we stil staan. Maar het originele werk heeft meer vormen dan alleen vierkanten, dus die moeten er ook komen.
 </p>
@@ -419,7 +419,7 @@ void draw() {
 
 <p>Mocht je meer vormen willen toevoegen, dan kan dit natuurlijk altijd. We hebben hier wat voorbeeld code waar in we de andere vormen van Primitives uitleggen. Maar mocht je niet zoveel interesse hebben in vormen, dan kun je ook verder zonder de uitleg te lezen. De belangrijkste toevoeging is de functie <a href="http://processing.org/reference/arc_.html" target="_blank">arc</a> die je in staat stelt delen van een cirkel te tekenen. Let daarbij op dat Processing gebruikt maakt van radianen als notering om het start en eindpunt van de cirkel aan te geven. Mocht je dat onhandig vinden dan kun je met <a href="http://processing.org/reference/radians_.html" target="_blank">randians</a> functie gewoon het 360 graden systeem gebruiken.</p>
 
-<h2>Het scherm aan het begin vullen</h2>
+<h1>Het scherm aan het begin vullen</h1>
 <p>Dus nu kunnen we op de juiste manier nieuwe vormen laten verschijnen en over oude vormen heen tekenen. Maar we beginnen met een leeg scherm. Dat is natuurlijk niet hoe het originele werkt begint.</p>
 
 <p>Gelukkig is het vullen van het scherm niet heel moeilijk en bestaat het uit de code die we al hebben geschreven in draw te combineren met de code van vorige week met 1025 Farben. Daar vulde we ook een scherm in een rastervorm. Hier hebben we naast het vierkant echter ook andere vormen.</p>
@@ -491,13 +491,13 @@ void draw() {
 </code>
 </pre>
 
-<h2>De optionele puntjes op de i</h2>
+<h1>De optionele puntjes op de i</h1>
 
 <p>Omdat het tekenen van de verschillende vormen nu op twee plekken plaats vind het je op twee plekken dezelfde code. Omdat dat onnodige is kun je hiervoor een zogenaamde functie gebruiken. Hoewel het gebruik van functies verder gaat dan we gaan uitleggen bij Apps om in te lijsten hebben we voor nieuwsgierigen ook <a href="http://studio.sketchpad.cc/kUNTipUqz3" target="_blank">een versie</a> gemaakt van Primitives die functies gebruikt.</p>
 
 
 
-<h2>Afsluiting en huiswerk</h2>
+<h1>Afsluiting en huiswerk</h1>
 
 <p>De volgende les is alweer de laatste, dus als huiswerk ga je aan de slag met het maken van je eigen werk. Pak hierbij gerust iets wat we tijdens de les behandeld hebben of verzin je eigen concept. Alles wat je interessant lijkt in de <a href="http://processing.org/reference/" target="_blank">reference</a> zou ik zeker eens proberen, zo leer je immers het snelst en wie weet wat voor idee je er aan over houdt.</p>
 
