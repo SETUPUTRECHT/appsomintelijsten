@@ -116,7 +116,7 @@ Variabelen ken je misschien uit de wiskunde. Variabelen bestaan uit een naam waa
 
 <h2>Aan de slag</h2>
 
-<p>Omdat je het snelst leert doe het gewoon te doen, gaan we aan de slag! En dat doen we door deze simpele \'sketch\' (zo heet een programma in Processing). Aan te passen tot iets anders</p>
+<p>Omdat je het snelst leert doe het gewoon te doen, gaan we aan de slag! En dat doen we door deze simpele &quot;sketch&quot; (zo heet een programma in Processing). Aan te passen tot iets anders</p>
 
 <p>Download de sketch <a href="https://github.com/hay/setup-processing/archive/master.zip" target="_blank">hier</a> en pak hem uit. Wij gaan aan de slag met het de simpele variant. De advanced versie is een mooi startpunt als je klaar met de workshop en dieper in programmeren wil duiken. Open de alife_simple map en dubbelklik op alife_simple.pde. Als je nu op de play knop drukt zie je iets wat lijkt op deze sketch hieronder.</p>
 
