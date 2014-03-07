@@ -5,6 +5,12 @@ description: ""
 ---
 {% include JB/setup %}
 
+<h3>Bekijk je deze pagina als Docent of Student?</h3>
+<div class="btn-group ">
+  <button id="student" type="button" class="btn btn-default">Student</button>
+  <button id="teacher" type="button" class="btn btn-default">Docent</button>
+</div>
+
 <p class="instructor">Zorg dat je er dit keer wat eerder bent voor de mensen die vastgelopen zijn met het installeren van de Android SDK</p>
 
 <p>Hallo en welkom bij les 2 van de cursus Apps om in te lijsten.</p>

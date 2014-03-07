@@ -5,6 +5,12 @@ description: ""
 ---
 {% include JB/setup %}
 
+<h3>Bekijk je deze pagina als Docent of Student?</h3>
+<div class="btn-group ">
+  <button id="student" type="button" class="btn btn-default">Student</button>
+  <button id="teacher" type="button" class="btn btn-default">Docent</button>
+</div>
+
 <p>En opeens zijn we al bij les 4 van de cursus Apps om in te lijsten. In de fysieke workshop is dit vooral een les om je project af te maken, dus de beschrijving van dit verhaal zal redelijk kort zijn.</p>
 
 <p class="instructor">Hoe staat iedereen ervoor met zijn of haar projecten? [Even checken.]</p>
@@ -33,7 +39,6 @@ void draw(){
 //Deze regel
   save('frame.tiff');
 }
-
 </code>
 </pre>
 

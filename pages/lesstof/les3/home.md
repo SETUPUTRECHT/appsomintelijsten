@@ -5,6 +5,12 @@ description: ""
 ---
 {% include JB/setup %}
 
+<h3>Bekijk je deze pagina als Docent of Student?</h3>
+<div class="btn-group ">
+  <button id="student" type="button" class="btn btn-default">Student</button>
+  <button id="teacher" type="button" class="btn btn-default">Docent</button>
+</div>
+
 <p class="instructor">Deze les bestaat voor een groot deel uit het behandelen van het gemaakte huiswerk. Maar ik merk dat het laatste deel ook veel tijd in beslag neemt, dus houdt de tijd strak in de gaten.</p>
 
 <p>Het is alweer tijd voor les 3 van apps om in te lijsten. Deze week gaan we kijken naar de mogelijkheden van de muis. </p>
