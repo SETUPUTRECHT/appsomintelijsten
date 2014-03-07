@@ -26,6 +26,8 @@ description: ""
 De muis gebruiken in Processing is makkelijk, zo is de positie van de muis op te vragen door middel van <a href="http://processing.org/reference/mouseX.html" target="_blank">mouseX</a> en <a href="http://processing.org/reference/mouseY.html" target="_blank">mouseY</a>.
 </p>
 
+<iframe id='ifr' width='300' height='435' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9qCjk$5PfMTWo/rev.2?autostart=0'>dfsf</iframe>
+
 <pre>
 <code>
 void setup(){
@@ -46,6 +48,8 @@ void draw(){
 
 <p>Voor een tekenprogramma kun je, zoals we in de vorige les lieten zien, de background uit de vorige code weghalen. Op die manier worden de cirkels niet van het scherm gehaald en ontstaat er een slinger van cirkels.</p>
 
+<iframe id='ifr' width='300' height='200' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.933GHGaPm9Z2U/rev.4?autostart=0'>jekyll fill</iframe>
+
 <pre>
 <code>
 void setup(){
@@ -53,7 +57,6 @@ void setup(){
 }
 
 void draw(){
-    background(0);
     ellipse(mouseX,mouseY,20,20);  
 }
 </code>
@@ -68,6 +71,7 @@ Nou is een cirkel met slingers best kunstig. Maar wat als we wat meer een tradit
 Dus hoe weet je waar je muis de vorige frame was? mouseX en mouseY geven alleen aan waar de muis op dit moment uithangt. Gelukkig heeft Processing ook variabelen waar de muis de vorige frame uithing namelijk <a href="http://processing.org/reference/pmouseX.html" target="_blank">pmouseX</a> en <a href="http://processing.org/reference/pmouseY.html" target="_blank">pmouseY</a>. Zo kunnen we een programma maken dat lijnen kan tekenen.
 </p>
 
+<iframe id='ifr' width='300' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9Qkkujd1NggxJ/rev.2?autostart=0'>jekyll fill</iframe>
 <pre>
 <code>
 void setup(){
@@ -95,6 +99,8 @@ Als je kijkt in de Processing <a href="http://processing.org/reference/" target=
 
 <p>MousePressed is net als mouseX en mouseY een variabele, maar in plaats van een getal is mousePressed een boolean. Een boolean is een variabele die true of false is, net zoiets als een lichtknopje dat aan of uit kan. Door een if statement te gebruiken kun je acties koppelen aan een muisklik.</p>
 
+<iframe id='ifr' width='300' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9tVHVIrjVnSzX/rev.2?autostart=0'>jekyll fill</iframe>
+
 <pre>
 <code>
 void setup(){
@@ -111,6 +117,7 @@ void draw(){
 </pre>
 
 <p>Op deze manier zou je het tekenprogramma kunnen voorzien van een mogelijkheid om het scherm leeg te maken.</p>
+<iframe id='ifr' width='300' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9x4g$TPNfgCEb/rev.2?autostart=0'>jekyll fill</iframe>
 
 <pre>
 <code>
@@ -133,7 +140,7 @@ void draw() {
 
 <p>Wees niet te verlegen om de variabelen van de muis voor onlogische dingen te gebruiken. Dit leidt vaak tot interessante resultaten. Bijvoorbeeld als je de kleuren van je lijn koppelt aan de positie van de muis.</p>
 
-
+<iframe id='ifr' width='300' height='335' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9KOickwe1R7LZ/rev.2?autostart=0'>jekyll fill</iframe>
 <pre>
 <code>
 void setup() {
@@ -228,11 +235,15 @@ void draw() {
   //Hier rekenen we uit in welk rastervierkantje de muis uithangt
   int mouseXArea = floor(mouseX/cellSize);  
   int mouseYArea = floor(mouseY/cellSize);
+  println(" mouseXArea: "+mouseXArea +" mouseYArea: "+mouseYArea)
 }
 </code>
 </pre>
 
 <p>Als mouseX nu 180 is weeten mouseXArea dat we in het zesde vakje van links zitten. Het probleem is dat als mouseX 183 is, mouseXarea denkt dat we in vakje 8.1 inzitten. Omdat we een heel getal terug willen hebben en niet een notatie als "vakje 8.1" ronden we alle getallen af naar beneden, dit kan door de functie <a href="http://processing.org/reference/floor_.html" target="_blank">floor</a>. De code is dan als volgt.</p>
+
+
+<iframe id='ifr' width='420' height='455' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.93$5GaEvNWzTU/rev.16?autostart=0'>jekyll fill</iframe>
 
 <pre>
 <code>
@@ -275,6 +286,8 @@ void draw() {
 <p>Om dit te doen hebben we een if statement die kijkt of de muis zich in een ander vakje bevindt op de horizontale OF verticale regel. in een van de eerdere voorbeeld lieten we stilletjes al <a href="http://processing.org/reference/logicalAND.html" target="_blank">&amp;&amp;</a> in een if statment zien, wat kijkt of beide zaken die je wil controleren waar zijn. In ons geval hoeven ze niet allebei waar zijn, mag wel, daarvoor gebruiken we  <a href="http://processing.org/reference/logicalOR.html" target="_blank">&#124;&#124;</a>, wat zoveel betekend als OR.</p>
 
 <p>Hier mee kunnen we aan een if statement beide onderdelen controleert en als een van de vergelijkingen waar is dat de code wordt uitgevoerd. Dus zo kunnen we kijken of de muis zich op een ander horizontaal OF verticaal vakje bevindt.</p>
+
+<iframe id='ifr' width='420' height='455' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.91NMgYEU0eLXL/rev.7?autostart=0'>jekyll fill</iframe>
 
 <pre>
 <code>
@@ -324,6 +337,9 @@ Voor het tekenen van verschillende vormen gebruiken we een if statement in combi
 
 <p>In de code hieronder zie je dat we de functie <a href="http://processing.org/reference/ellipseMode_.html" target="_blank">ellipseMode</a> gebruiken. Door deze in te stellen op CORNER komt de x en de y positie van de cirkel in de linkerbovenhoek te liggen. Omdat dit bij vierkanten standaard is kunnen we vierkant en cirkels op dezelfde manier tekenen zonder ons druk te hoeven maken over verschillende vormen van plaatsen.</p>
 
+
+<iframe id='ifr' width='420' height='455' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9ytLc8kchRSOH/rev.6?autostart=0'>jekyll fill</iframe>
+
 <pre>
 <code>
 //Eerst geven we aan hoe groot een blokje in het raster is
@@ -368,6 +384,8 @@ void draw() {
 <p>
 Als je deze code nu runt zie je het probleem dat de cirkels niet helemaal over de vierkanten heen vallen. Dit lossen we, heel flauw, op door er een zwart vierkant te tekenen voordat we een nieuwe vorm er over heen tekenen.
 </p>
+
+<iframe id='ifr' width='420' height='455' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9DHltQgVuODlI/rev.7?autostart=0'>jekyll fill</iframe>
 
 <pre>
 <code>
@@ -423,6 +441,8 @@ void draw() {
 <p>Dus nu kunnen we op de juiste manier nieuwe vormen laten verschijnen en over oude vormen heen tekenen. Maar we beginnen met een leeg scherm. Dat is natuurlijk niet hoe het originele werkt begint.</p>
 
 <p>Gelukkig is het vullen van het scherm niet heel moeilijk en bestaat het uit de code die we al hebben geschreven in draw te combineren met de code van vorige week met 1025 Farben. Daar vulde we ook een scherm in een rastervorm. Hier hebben we naast het vierkant echter ook andere vormen.</p>
+
+<iframe id='ifr' width='420' height='455' scrolling='no' style='background: url(http://studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='http://studio.processingtogether.com/sp/pad/iframe/ro.9X13gf97DokV2/rev.17?autostart=0'></iframe>
 
 <pre>
 <code>
