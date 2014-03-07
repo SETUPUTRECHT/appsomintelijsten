@@ -11,6 +11,8 @@ description: ""
   <button id="teacher" type="button" class="btn btn-default">Docent</button>
 </div>
 
+<div>Mocht je het nog niet gedaan hebben dan kun je hier de voorbeeld bestanden van alle lessen downloaden: <a href="http://setuputrecht.github.io/appsomintelijsten/assets/img/primitives.jpg" target="_blank">bronbestanden</a>.</div>
+
 <p class="instructor">Deze les bestaat voor een groot deel uit het behandelen van het gemaakte huiswerk. Maar ik merk dat het laatste deel ook veel tijd in beslag neemt, dus houdt de tijd strak in de gaten.</p>
 
 <p>Het is alweer tijd voor les 3 van apps om in te lijsten. Deze week gaan we kijken naar de mogelijkheden van de muis. </p>

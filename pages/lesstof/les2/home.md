@@ -11,6 +11,8 @@ description: ""
   <button id="teacher" type="button" class="btn btn-default">Docent</button>
 </div>
 
+<div>Mocht je het nog niet gedaan hebben dan kun je hier de voorbeeld bestanden van alle lessen downloaden: <a href="http://setuputrecht.github.io/appsomintelijsten/assets/img/primitives.jpg" target="_blank">bronbestanden</a>.</div>
+
 <p class="instructor">Zorg dat je er dit keer wat eerder bent voor de mensen die vastgelopen zijn met het installeren van de Android SDK</p>
 
 <p>Hallo en welkom bij les 2 van de cursus Apps om in te lijsten.</p>

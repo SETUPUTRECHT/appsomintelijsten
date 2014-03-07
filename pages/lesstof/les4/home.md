@@ -11,6 +11,8 @@ description: ""
   <button id="teacher" type="button" class="btn btn-default">Docent</button>
 </div>
 
+<div>Mocht je het nog niet gedaan hebben dan kun je hier de voorbeeld bestanden van alle lessen downloaden: <a href="http://setuputrecht.github.io/appsomintelijsten/assets/img/primitives.jpg" target="_blank">bronbestanden</a>.</div>
+
 <p>En opeens zijn we al bij les 4 van de cursus Apps om in te lijsten. In de fysieke workshop is dit vooral een les om je project af te maken, dus de beschrijving van dit verhaal zal redelijk kort zijn.</p>
 
 <p class="instructor">Hoe staat iedereen ervoor met zijn of haar projecten? [Even checken.]</p>

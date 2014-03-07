@@ -10,6 +10,9 @@ description: "De lesstof van les 1"
   <button id="student" type="button" class="btn btn-default">Student</button>
   <button id="teacher" type="button" class="btn btn-default">Docent</button>
 </div>
+
+<div>Mocht je het nog niet gedaan hebben dan kun je hier de voorbeeld bestanden van alle lessen downloaden: <a href="http://setuputrecht.github.io/appsomintelijsten/assets/img/primitives.jpg" target="_blank">bronbestanden</a>.</div>
+
 <p class="instructor"> <br />Deze optie geeft extra teksten weer met instructies voor docenten van de workshop. Aan het einde van elke les wordt ook een tijdsindeling gegeven hoe lang elk deel ongeveer moet duren.</p>
 
 <h1>Welkom</h1>
